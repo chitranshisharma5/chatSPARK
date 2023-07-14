@@ -1,0 +1,22 @@
+
+*{
+  margin:0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*In this particular case, * { margin: 0; } is used to set the margin of all elements to 0.
+ By default, browsers apply some amount of margin to elements (e.g., body, div, p, etc.). 
+ The * selector helps to override any default margin set by the browser and ensures that all 
+ elements have no margin, resulting in a consistent layout across different browsers and devices.*/
